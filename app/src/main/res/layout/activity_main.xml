@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="180dp"
+        android:text="@string/welcome"
+        android:textSize="50sp"
+        android:layout_gravity="center"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+
+        <Button
+            android:id="@+id/newvote"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/buttontype"
+            android:layout_marginLeft="130dp"
+            android:padding="20dp"
+            android:text="@string/startvote"
+            android:textSize="40sp" />
+
+        <Button
+            android:id="@+id/existvote"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/buttontype"
+            android:layout_marginLeft="100dp"
+            android:padding="20dp"
+            android:text="@string/chooseexist"
+            android:textSize="40sp" />
+    </LinearLayout>
+
+
+</LinearLayout>

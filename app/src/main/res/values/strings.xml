@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">会议投票系统</string>
+    <string name="welcome">欢迎使用会议投票系统</string>
+    <string name="startvote">发起新的投票</string>
+    <string name="chooseexist">选择已有投票项</string>
+    <string name="scan">请扫描下方二维码进行投票</string>
+    <string name="sethint">请输入投票的主题</string>
+    <string name="settv1">请选择投票的类型</string>
+    <string name="setchoose">请添加选项</string>
+    <string name="inputchoose">请输入选项</string>
+    <string name="choose1">选项1</string>
+    <string name="choose2">选项2</string>
+    <string name="choose3">选项3</string>
+    <string name="choose4">选项4</string>
+    <string name="choose5">选项5</string>
+    <string name="choose6">选项6</string>
+    <string name="choose7">选项7</string>
+    <string name="choose8">选项8</string>
+    <string name="choose9">选项9</string>
+    <string name="choose10">选项10</string>
+
+</resources>
